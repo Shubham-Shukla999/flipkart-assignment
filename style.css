@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.blue-nav{
+    width: 100vw;
+    height: 60px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 5vw;
+}
+.left-blue{
+    height: 50px;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+.right-blue{
+    height: 50px;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.search-box{
+    width: 30vw;
+    height: 2vw;
+}
+.right-blue-nav{
+    text-decoration: none;
+    color: white;
+}
+::placeholder{
+    padding-left: 10px;
+}
+.logo{
+    font-family:sans-serif;
+    color: white;
+}
+
+.white-nav{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+.white-nav-content{
+    text-decoration: none;
+    color: black;
+}
+
+.bottom{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.d1{
+    width: 20vw;
+    height: 100vh;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.d2{
+    
+    width: 60vw;
+    height: 120vh;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.name{
+    width: 20vw;
+    height: 5vh;
+    margin-left: 30px;
+}
+h3{
+    margin: 30px;
+    width: 12vw;
+}
+
+.mail{
+    margin-top: 50px;
+}
+.mailcontent1{
+    margin-left: 30px;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+.mailcontent2{
+    margin-left: 50px;
+    font-weight: bold;
+}
+.mailinput{
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+.faqs{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+p{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+.bold{
+    font-weight: 550;
+}
